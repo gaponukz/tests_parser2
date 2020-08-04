@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     for j in range(1, epoch + 1):
         os.mkdir(PATH_TO_DATA + str(j))
-        for i in range(18, 20):
+        for i in range(1, 20):
             try:
                 parser = ParseAnswers()
                 parser.login(username, password)
